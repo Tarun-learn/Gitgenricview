@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 asgiref==3.11.0
 Django==6.0
 djangorestframework==3.16.1
 mysqlclient==2.2.7
 sqlparse==0.5.4
 tzdata==2025.3
-=======
-asgiref==3.11.0
-Django==6.0
-djangorestframework==3.16.1
-mysqlclient==2.2.7
-sqlparse==0.5.4
-tzdata==2025.3
-gunicorn
->>>>>>> 8633d0e6ef2772498089732abe18040c6dd0dcef
+gunicorn 
