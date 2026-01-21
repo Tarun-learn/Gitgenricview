@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-8mju_yn@5bjpfnq8=-5k-30)vo8yy$8fw^d_19*$_*fm=6o$+h
 # DEBUG = True 
 DEBUG = False                                                                     #nginx run for debug is false.
 
-ALLOWED_HOSTS = ['your_server_ip', 'localhost', '127.0.0.1']                      #false karya pachi aa lakhvu.
+ALLOWED_HOSTS = ['gitgenricview.onrender.com', 'localhost', '127.0.0.1']                      #false karya pachi aa lakhvu.
  
 
 # Application definition
