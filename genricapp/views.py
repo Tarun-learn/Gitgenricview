@@ -5,8 +5,8 @@ from .serializer import *
 
 from rest_framework.viewsets import GenericViewSet
 from rest_framework import mixins
-# from rest_framework.authentication import TokenAuthentication
-# from rest_framework.permissions import IsAuthenticated
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
 
 # Create your views here.
 
@@ -34,6 +34,6 @@ class StudentGenricClass(
     queryset = StudentModel.objects.all()
     serializer_class = StudentSerilaier
 
-    # authentication_classes = [TokenAuthentication]
-    # permission_classes = [IsAuthenticated]
+    authentication_classes = [TokenAuthentication]
+    permission_classes = [IsAuthenticated]
     
